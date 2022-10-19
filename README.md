@@ -1,62 +1,85 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Hello-Rails-Back-End
 
-> Description the project.
+> This is an educational project to set up a "Hello world" project as two separated apps.
+Front-End: [Hello-Rails-Front-End](https://github.com/masangana/hello-react-front-end)
 
+## Built With 🛠️
 
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- [x] Programming Language: [Ruby](https://www.ruby-lang.org/en/)
+- [x] Framework: [Ruby on Rails](https://rubyonrails.org/), [React](https://reactjs.org/)
+- [x] Linter: [Rubocop](https://rubocop.org/), [stylelint](https://stylelint.io/)
+- [x] Code Editor: [VS Code](https://code.visualstudio.com/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
+- [x] A web browser like Google Chrome.
+- [x] A code editor like Visual Studio Code with Git and Ruby.
+
+You can check if Git is installed by running the following command in the terminal.
+```
+$ git --version
+```
+
+Likewise for Ruby installation.
+```
+$ ruby --version && irb
+```
+
+To install rails, in the terminal kindly run this command
+```
+$ gem install rails
+```
+
 ### Setup
+
+Clone the repository using the GitHub link provided below.
 
 ### Install
 
+In the terminal, go to your file directory and run this command.
+
+```
+$ gh repo clone masangana/hello-rails-back-end
+```
+
 ### Usage
+
+Kindly modify the files as needed.
+
+You can run this command below:
+
+```
+$ rails s
+```
 
 ### Run tests
 
-### Deployment
+To install rspec, in the terminal kindly run this command
 
+```
+$ gem install rspec
+```
 
+To run tests, please run this command
+```
+$ rspec ./spec/#{filename}_spec.rb
+```
 
-## Authors
+## Author
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+Initiating server activation
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/masangana/hello-rails-back-end/issues).
 
 ## Show your support
 
@@ -64,12 +87,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Microverse](https://www.microverse.org/)
+- Code Reviewers
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
